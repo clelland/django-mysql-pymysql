@@ -17,21 +17,20 @@ Installation
 
 1. Clone and install into your site-packages directory:
 
-```    $ git clone https://github.com/clelland/django-mysql-pymysql
-    $ cd django-mysql-pymysql
-    $ python setup.py install
-```
+        $ git clone https://github.com/clelland/django-mysql-pymysql
+        $ cd django-mysql-pymysql
+        $ python setup.py install
 
 2. Edit your settings file:
 
-```    DATABASES = {
-        'default': {
-            'ENGINE': 'mysql_pymysql',
-            'HOST': ...,
-            'USER': ...,
-            'PASSWORD': ...,
+        DATABASES = {
+            'default': {
+                'ENGINE': 'mysql_pymysql',
+                'HOST': ...,
+                'USER': ...,
+                'PASSWORD': ...,
+            }
         }
-    }
-```
+
 
 3. You're done.
